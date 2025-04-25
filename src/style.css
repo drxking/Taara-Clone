@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import 'remixicon/fonts/remixicon.css';
+
+@font-face {
+    font-family: Spcae;
+    src: url("/public/67a26e204bf0730065e34eb9_Lateral-StandardRegular.ttf");
+}
+
+* {
+    font-family: Spcae;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none !important;
+}
+
+.scroller {
+    scrollbar-width: none;
+}
+
+.grad {
+    background: conic-gradient(from 90deg at 50% 50%, #D8D8D8 64.80000257492065deg, #FFDCDC 156.60000085830688deg, #FBF7F0 304.2000102996826deg, #E8D6D7 360deg);
+}

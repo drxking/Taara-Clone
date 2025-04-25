@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style.css">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div
+    class="bg-white opacity-0  pointer-events-none respo duration-300 h-screen w-screen fixed top-0 left-0 z-10 py-20 px-10 flex m-auto items-center">
+    <ul id="animate" class="text-2xl flex flex-col  w-full">
+      <li class="border-t flex items-center justify-between w-full border-gray-300 py-5">Product <i
+          class="ri-arrow-right-s-line"></i></li>
+      <li class="border-t flex items-center justify-between w-full border-gray-300 py-5">About <i
+          class="ri-arrow-right-s-line"></i></li>
+      <li class="border-t flex items-center justify-between w-full border-gray-300 py-5">News <i
+          class="ri-arrow-right-s-line"></i></li>
+      <li class="border-t flex items-center justify-between w-full border-gray-300 py-5">Careers <i
+          class="ri-arrow-right-s-line"></i></li>
+      <li class="border-t flex items-center justify-between border-b w-full border-gray-300 py-5">Login <i
+          class="ri-arrow-right-s-line"></i></li>
+    </ul>
+  </div>
+  <nav class="fixed w-full duration-500  flex items-center z-50 text-white justify-between p-4 px-6 md:px-14">
+
+    <div class="inline-block respo-button md:hidden w-[33.33%] cursor-pointer">
+      <i class="ri-menu-line  text-2xl"></i>
+    </div>
+    <div class="links w-[40%] hidden  md:flex">
+      <ul class="flex items-center gap-8 text-xs ">
+        <li class="cursor-pointer">Product</li>
+        <li class="cursor-pointer">About</li>
+        <li class="cursor-pointer">News</li>
+        <li class="cursor-pointer">Careers</li>
+      </ul>
+    </div>
+    <div class="logo md:w-[20%] w-[33.33%] flex justify-center items-center">
+      <img id="logo" src="/logo.svg" class="sm:h-8 h-5 invert duration-300" alt="logo" />
+    </div>
+    <div class="buttons flex items-center gap-4 text-xs md:w-[40%] w-[33.33%] justify-end">
+      <p class="md:inline-block hidden cursor-pointer">Login</p>
+      <button
+        class="sm:px-6 p-1 md:py-2 rounded-md backdrop-blur-md bg-black/10 hover:bg-white/10 cursor-pointer duration-150">Contact</button>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="fixed top-0 -z-10 w-full h-screen">
+      <video loop autoplay muted src="/highest.mp4" class="h-full w-full object-cover"></video>
+    </div>
+    <div class="temp h-screen w-full"></div>
+  </div>
+
+
+  <div class="bg-white w-full">
+    <section class="pt-24 px-10 pb-16">
+      <p class="lg:text-5xl lg:text-left md:text-3xl text-xl text-center lg:leading-12 lg:w-[90%]">
+        Humans thrive on connection.
+        <br>
+        <span class="text-gray-400 ">
+          Yet billions lack reliable connectivity. This gap demands
+
+          a groundbreaking solution. Taara lights the way
+
+          forward,
+          delivering blazing fast, abundant connectivity.
+        </span>
+      </p>
+    </section>
+    <section class="flex w-full relative lg:flex-row flex-col-reverse ">
+      <div
+        class="lg:h-screen  lg:sticky top-0 w-full lg:w-[50%] lg:inline-block flex flex-col items-center right-0 px-4 sm:px-16 py-28">
+        <p class="text-3xl py-6 lg:text-left text-center">
+          <span class="">Introducing</span> <br>
+          Taara Lightbridge
+        </p>
+        <button class="bg-gray-300 p-3 text-xs cursor-pointer rounded-md">
+          Meet Lightbridge
+        </button>
+        <p class="mt-3 lg:text-left text-center lg:w-full w-[90%] md:w-[65%]">
+          Taara uses light to extend and amplify the global communications network. From under-connected communities to
+          densely populated cities, our technology bridges existing gaps to amplify the connectivity infrastructure.
+        </p>
+      </div>
+      <div class="w-full pointer-events-none flex items-center justify-center opacity-0 lg:block">
+        <img src="/public/67bc436ccb2d28f5c12c0f68_Home Terminal 3D Render_Final.avif"
+          class="lg:w-5/12 w-4/12 lg:mt-20 mt-10 mb-32  lg:mb-44" alt="">
+      </div>
+      <div
+        class="w-full absolute flex  pointer-events-none items-center justify-center top-0  left-1/2 -translate-x-1/2 ">
+        <img src="/public/67bc436ccb2d28f5c12c0f68_Home Terminal 3D Render_Final.avif"
+          class="lg:w-3/12 w-5/12 lg:mt-20 mt-10" alt="">
+      </div>
+    </section>
+
+
+    <div class="text-black flex  lg:flex-row flex-col lg:gap-12 md:px-40 sm:px-10 px-4 lg:px-12">
+      <div class="left flex flex-col ow lg:gap-10 lg:w-1/2 w-full">
+        <div class="flex flex-col gap-5 border-t border-gray-400 py-5 sm:pb-5 pb-14">
+          <p class="text-xs uppercase tracking-wide">SPEED</p>
+          <h2 class="lg:text-3xl text-2xl">
+            Connect farther and faster.
+          </h2>
+          <p class="h-24 lg:pr-28 md:text-lg text-md lg:text-base ">
+            Using wireless optical communications, Taara Lightbridge can achieve speeds of up to 20 Gbps over distances
+            of
+            up to 20 km – and lower latency than fiber.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 border-t border-gray-400 py-5 sm:pb-5 pb-14">
+          <p class="text-xs uppercase tracking-wide">Setup
+          </p>
+          <h2 class="lg:text-3xl text-2xl">
+            Make installation light work.
+          </h2>
+          <p class="h-24 lg:pr-28 md:text-lg text-md lg:text-base ">
+            Installation is completed in hours, not days – all without digging, spectrum licensing or right-of-way
+            permitting.
+          </p>
+        </div>
+      </div>
+      <div class="right lg:w-1/2 w-full flex flex-col lg:gap-10">
+        <div class="flex flex-col gap-5 border-t border-gray-400 py-5 sm:pb-5 pb-14">
+          <p class="text-xs uppercase tracking-wide">Stability</p>
+          <h2 class="lg:text-3xl text-2xl">
+            Keep the connection.
+          </h2>
+          <p class="h-24 lg:pr-28 md:text-lg text-md lg:text-base ">
+            When atmospheric conditions disrupt the light, our adaptive rate and hybrid architecture maintains the
+            connection, with minimal downtime.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 border-t border-gray-400 py-5 sm:pb-5 pb-14">
+          <p class="text-xs uppercase tracking-wide">Security
+          </p>
+          <h2 class="lg:text-3xl text-2xl">
+            Stay safe and secure.
+          </h2>
+          <p class="h-24 lg:pr-28 md:text-lg text-md lg:text-base ">
+            Connections are kept secure, private, and continually protected against threats.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class=" w-full bg-white pt-10">
+    <div class="flex flex-col items-center justify-center py-20 px-5 md:px-10 w-full md:w-[70%] lg:w-[60%]">
+      <p class="lg:text-[3.5vw] md:text-[4vw] text-3xl leading-none tracking-tight text-black">
+        Taara goes where others can’t. <br>
+        <span class="text-gray-400">
+          We extend and amplify the global communications network.
+        </span>
+      </p>
+      <p class="mt-10 text-xl leading-6 text-black/80">
+        Taara Lightbridge is designed to scale across markets — rural or urban, developed and emerging — reaching more
+        people in more places. Our technology delivers connectivity to people wherever they are — from downtown Mumbai
+        to rural Missouri.
+      </p>
+    </div>
+
+    <div class="flex py-10 scroller  overflow-x-scroll snap-x snap-mandatory overflow-y-hidden ">
+      <div class="card snap-start px-5 shrink-0 w-[290px] md:w-[350px] lg:w-[400px] ">
+        <img src="/one.avif" class="object-cover w-full md:h-52 h-44 lg:h-64 rounded-xl" alt="one" />
+        <div class="pt-5">
+          <p class="md:text-2xl text-xl ">Deliver high bandwidth backhaul.</p>
+          <p class="text-base leading-tight md:pr-2 pt-2 text-gray-700">Taara extends fiber capacity seamlessly and
+            augments radio networks to manage growing data demands where
+            it’s needed most.</p>
+        </div>
+      </div>
+
+      <div class="card snap-start px-5 shrink-0 w-[290px] md:w-[350px] lg:w-[400px] ">
+        <img src="/two.avif" class="object-cover w-full md:h-52 h-44 lg:h-64 rounded-xl" alt="one" />
+        <div class="pt-5">
+          <p class="md:text-2xl text-xl ">Deliver high bandwidth backhaul.</p>
+          <p class="text-base leading-tight md:pr-2 pt-2 text-gray-700">Taara extends fiber capacity seamlessly and
+            augments radio networks to manage growing data demands where
+            it’s needed most.</p>
+        </div>
+      </div>
+
+      <div class="card snap-start px-5 shrink-0 w-[290px] md:w-[350px] lg:w-[400px] ">
+        <img src="/three.avif" class="object-cover w-full md:h-52 h-44 lg:h-64 rounded-xl" alt="one" />
+        <div class="pt-5">
+          <p class="md:text-2xl text-xl ">Deliver high bandwidth backhaul.</p>
+          <p class="text-base leading-tight md:pr-2 pt-2 text-gray-700">Taara extends fiber capacity seamlessly and
+            augments radio networks to manage growing data demands where
+            it’s needed most.</p>
+        </div>
+      </div>
+
+      <div class="card snap-start px-5 shrink-0 w-[290px] md:w-[350px] lg:w-[400px] ">
+        <img src="/four.avif" class="object-cover w-full md:h-52 h-44 lg:h-64 rounded-xl" alt="one" />
+        <div class="pt-5">
+          <p class="md:text-2xl text-xl ">Deliver high bandwidth backhaul.</p>
+          <p class="text-base leading-tight md:pr-2 pt-2 text-gray-700">Taara extends fiber capacity seamlessly and
+            augments radio networks to manage growing data demands where
+            it’s needed most.</p>
+        </div>
+      </div>
+
+      <div class="card snap-start px-5 shrink-0 w-[290px] md:w-[350px] lg:w-[400px] ">
+        <img src="/five.avif" class="object-cover w-full md:h-52 h-44 lg:h-64 rounded-xl" alt="one" />
+        <div class="pt-5">
+          <p class="md:text-2xl text-xl ">Deliver high bandwidth backhaul.</p>
+          <p class="text-base leading-tight md:pr-2 pt-2 text-gray-700">Taara extends fiber capacity seamlessly and
+            augments radio networks to manage growing data demands where
+            it’s needed most.</p>
+        </div>
+      </div>
+      <div class="card snap-start px-5 shrink-0 w-[290px] md:w-[350px] lg:w-[400px] ">
+        <img src="/six.avif" class="object-cover w-full md:h-52 h-44 lg:h-64 rounded-xl" alt="one" />
+        <div class="pt-5">
+          <p class="md:text-2xl text-xl ">Deliver high bandwidth backhaul.</p>
+          <p class="text-base leading-tight md:pr-2 pt-2 text-gray-700">Taara extends fiber capacity seamlessly and
+            augments radio networks to manage growing data demands where
+            it’s needed most.</p>
+        </div>
+      </div>
+
+    </div>
+    <section
+      class="md:py-44 py-24 w-full bg-gradient-to-b from-white to-[#E1DCD0] gap-8  flex flex-col items-center justify-center">
+
+      <p class="lg:text-[3.4vw] md:text-[4vw] text-3xl px-3 text-center tracking-tight">
+        We’re taking light farther than ever before.
+      </p>
+      <p class="lg:w-[52%] md:w-[72%] w-[90%] px-3 md:px-0  text-center text-md md:text-xl text-gray-600">
+        With wireless optical communication on a chip, Taara is pioneering the next generation of connectivity and
+        bringing the innovation of light to new industries and sectors. Get a front row seat to our latest innovation,
+        which has wide-ranging capabilities and impact.
+      </p>
+      <button class=" bg-gray-300 px-3 py-2 text-xs rounded-md cursor-pointer">Read More </button>
+    </section>
+
+    <section>
+      <video src="/public/highest2.mp4" class="md:h-auto h-[80vh] w-full object-cover" muted autoplay loop> </video>
+    </section>
+
+
+    <section class="flex lg:flex-row flex-col items-center py-32 w-full">
+      <div class="w-full lg:w-1/2 lg:pl-28 sm:p-10 p-4 md:px-28 lg:px-0">
+        <div>
+          <h1 class="text-4xl">
+            Born at X. <br>
+            <span class="text-gray-400">
+              Google’s Moonshot Factory.
+            </span>
+
+          </h1>
+          <p class="mt-6 text-gray-600 lg:pr-5">
+            We got our start at X, Google’s Moonshot Factory, where our team combined expertise across disciplines to
+            tackle the world’s toughest connectivity challenges. With the help of groundbreaking partnerships, we're now
+            deploying our technology in over a dozen countries, and expanding access to fast, reliable connectivity.
+          </p>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 lg:pl-0 sm:pl-10 pl-4">
+        <div class="rounded-bl-2xl  rounded-tl-2xl overflow-hidden  ">
+          <img src="/public/bornat.avif" class="w-full h-full object-cover ">
+        </div>
+      </div>
+    </section>
+    <section class="flex items-center justify-center py-20 px-4 md:px-14 w-full">
+      <div class="w-full flex flex-col items-center md:py-36 py-20 rounded-2xl md:rounded-4xl justify-center grad">
+        <h1 class="md:text-5xl text-3xl text-center">
+          <span class="text-gray-400">
+            Flexible pricing.
+          </span> <br>
+          Dedicated partners.
+        </h1>
+        <p class="mt-10 text-sm md:text-xl  w-8/12 px-4 lg:w-5/12 text-center text-gray-600">
+          Our flexible pricing models leave no one behind. We'll partner with you to find solutions to your connectivity
+          challenges.
+        </p>
+        <button class="mt-10 bg-gray-600/20 backdrop-blur-lg px-4 py-3 cursor-pointer text-xs rounded-md">
+          Learn More
+        </button>
+      </div>
+    </section>
+    <section class="py-20 flex gap-20 justify-between md:flex-row flex-col px-4 sm:px-14">
+      <div class="left md:w-1/2">
+        <h1 class="text-2xl">
+          Stay in touch.
+        </h1>
+        <p class="text-gray-500 mt-2 leading-tight">
+          Get regular updates about our technical and business milestones and ideas in photonic communication
+          technology.
+        </p>
+        <div class="flex mt-16 gap-2">
+          <input placeholder="Email Address" class="px-4 py-2 border w-full border-gray-400 rounded-sm text-sm"
+            type="text">
+          <button class="text-xs px-4 py-2 bg-gray-200 rounded-sm cursor-pointer">Submit</button>
+        </div>
+        <div class="flex  gap-2 items-start">
+          <input type="checkbox" name="checkcheck" class="mt-4" id="checkcheck">
+          <label for="checkcheck" class="md:text-xs text-sm mt-4 text-gray-700 leading-tight">I agree to receive
+            newsletter
+            communications from Taara. </label>
+        </div>
+        <p class="md:text-xs text-sm mt-2 text-gray-700">
+          By subscribing, you agree to our <span class="text-gray-400"> Privacy Policy</span> and <span
+            class="text-gray-400">Terms of Use</span>
+        </p>
+      </div>
+      <div
+        class="right md:w-1/2 text-gray-600 tracking-wide md:justify-end justify-between flex md:gap-36 md:px-10 px-2">
+        <div>
+          <ul class="flex  uppercase  text-[3vw] sm:text-[9px] flex-col gap-3">
+            <li>Home</li>
+            <li>Product</li>
+            <li>About</li>
+            <li>News</li>
+            <li>Careers</li>
+            <li>Login</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex uppercase text-[3vw] sm:text-[9px] flex-col gap-3">
+            <li>LinkedIn</li>
+            <li>Youtube</li>
+            <li>X</li>
+            <div class="flex flex-col text-gray-400 gap-3 md:hidden">
+              <p class="uppercase ">
+                Privacy Policy
+              </p>
+              <p class="uppercase ">
+                COokies Notice
+              </p>
+              <p class="uppercase ">Terms of Use </p>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      class="flex w-full items-end justify-center md:justify-between p-4 md:p-10 tracking-wider text-xs md:text-[9px]">
+      <p class="uppercase md:flex hidden w-[33%]  text-gray-500">
+        Privacy Policy
+      </p>
+      <img src="/public/logoicon.svg" class="sm:h-20 h-[15vw] md:w-[33%] object-contain" alt="">
+      <div class="md:flex items-center hidden gap-10 w-[33%] justify-end">
+        <p class="uppercase  text-gray-500">
+          COokies Notice
+        </p>
+        <p class="uppercase  text-gray-500">Terms of Use </p>
+      </div>
+    </section>
+  </section>
+  <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+  <script type="module" src="/src/script.js"></script>
+</body>
+
+</html>
